@@ -1,6 +1,6 @@
 <?php
 $host = '172.16.1.9';
-$db   = 'default';
+$db   = 'jurnal_transaksi_atasi';
 $user = 'root';
 $pass = 'CButdzzrksIHIcWtSki9kIG64an0F7fEV60xdgSfAuzizKxhCVnmueqagdIpp6qC';
 $charset = 'utf8mb4';
