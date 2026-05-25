@@ -1,5 +1,5 @@
 <?php
-$host = 'e6yyn6xv9yiprmm1esqltamu';
+$host = '172.16.1.4';
 $db   = 'jurnal_transaksi_atasi';
 $user = 'mysql';
 $pass = 'E9Kn79QRhLOkJ5BXKMWUprzhyarW0JLXmiwzZkSF8zESQbJ2UqiSdjdmoiAG21VZ';
