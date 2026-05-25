@@ -1,17 +1,16 @@
 <?php
-$host = 'localhost';
-$db   = 'jurnal_transaksi_atasi'; // DI SINI PERUBAHANNYA, CUY!
-$user = 'root'; // sesuaikan dengan username database-mu
-$pass = 'CButdzzrksIHIcWtSki9kIG64an0F7fEV60xdgSfAuzizKxhCVnmueqagdIpp6qC';     // sesuaikan dengan password database-mu
+$host = '172.16.1.9';
+$db   = 'jurnal_transaksi_atasi';
+$user = 'root';
+$pass = 'CButdzzrksIHIcWtSki9kIG64an0F7fEV60xdgSfAuzizKxhCVnmueqagdIpp6qC';
 $charset = 'utf8mb4';
 
-$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$dsn = "mysql:host=$host;port=3306;dbname=$db;charset=$charset";
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     PDO::ATTR_EMULATE_PREPARES   => false,
 ];
-
 try {
      $pdo = new PDO($dsn, $user, $pass, $options);
 } catch (\PDOException $e) {
