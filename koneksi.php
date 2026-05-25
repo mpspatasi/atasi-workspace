@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db   = 'jurnal_transaksi_atasi'; // DI SINI PERUBAHANNYA, CUY!
 $user = 'root'; // sesuaikan dengan username database-mu
-$pass = '';     // sesuaikan dengan password database-mu
+$pass = 'CButdzzrksIHIcWtSki9kIG64an0F7fEV60xdgSfAuzizKxhCVnmueqagdIpp6qC';     // sesuaikan dengan password database-mu
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
